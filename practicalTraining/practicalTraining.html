@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,6 +23,7 @@
   <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
+
 <body>
   <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container">
@@ -45,9 +47,9 @@
 
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              实训设备
-              <span class="caret"></span>
-            </a>
+                          实训设备
+                          <span class="caret"></span>
+                        </a>
             <ul class="dropdown-menu" role="menu">
               <li>
                 <a href="#">设备入库</a>
@@ -65,7 +67,8 @@
           </li>
         </ul>
       </div>
-      <!--/.nav-collapse --> </div>
+      <!--/.nav-collapse -->
+    </div>
   </nav>
 
   <div class="container theme-showcase" role="main">
@@ -127,7 +130,7 @@
       <li role="presentation">
         <a href="#courseAudit" data-toggle="tab">课程审核</a>
       </li>
-      <li role="presentation"  class="active">
+      <li role="presentation" class="active">
         <a href="#courseArrange" data-toggle="tab">课程排课</a>
       </li>
     </ul>
@@ -136,7 +139,7 @@
         <div class="row">
           <div class="col-md-12">
             <!-- table-condensed  -->
-            <table class="table table-bordered" id="courseTable">
+            <table class="table table-bordered" id="course-table">
               <thead>
                 <tr>
                   <th>节次</th>
@@ -153,32 +156,48 @@
                 <tr>
                   <td>1</td>
                   <td rowspan="2">
-                    <div class="course" courseId="1">
-                      <p>
+                    <div class="course-container">
+                      <div class="course" courseId="1">
                         计算机科学基础练习1(实训场1栋102室)
-                        <span class="glyphicon glyphicon-plus more-course"></span>
-                      </p>
+                      </div>
                     </div>
-                    <div class="course" courseId="2" style="display:none">
-                      <p>计算机科学基础练习1(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="3">
-                      <p>
-                        计算机科学基础练习3(实训场1栋102室)
-                        <span class="glyphicon glyphicon-plus more-course"></span>
-                      </p>
-                    </div>
-                    <div class="course" courseId="2" style="display:none">
-                      <p>计算机科学基础练习1(实训场1栋102室)</p>
+                    <div class="course-container">
+                      <div class="course" courseId="2">
+                        ipad实训训练场地有限啊世界经济(实训场1栋102室)
+                      </div>
+                      <div class="course" courseId="3">
+                        无聊的人(实训场1栋102室)
+                      </div>
+                      <div class="course" courseId="5">
+                        这是个啥(实训场1栋102室)
+                      </div>
                     </div>
                   </td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="5">
-                      <p>计算机科学基础练习5(实训场1栋102室)</p>
+                    <div class="course-container">
+                      <div class="course" courseId="3">
+                        军工实习(无教室)
+                      </div>
+                    </div>
+                    <div class="course-container">
+                      <div class="course" courseId="13">
+                        打飞机(飞机场001号)
+                      </div>
+                      <div class="course" courseId="10">
+                        打坦克去吧(坦克厂002号)
+                      </div>
+                      <div class="course" courseId="4">
+                        打靶(黄土地)
+                      </div>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div class="course-container" courseId="5">
+                      <div class="course">
+                        <p>计算机科学基础练习5(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
@@ -189,70 +208,98 @@
                   <td></td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="9">
-                      <p>计算机科学基础练习9(实训场1栋102室)</p>
+                    <div class="course-container" courseId="9">
+                      <div class="course">
+                        <p>计算机科学基础练习9(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td>
-                    <div class="course" courseId="10">
-                      <p>计算机科学基础练习10(实训场1栋102室)</p>
+                    <div class="course-container" courseId="10">
+                      <div class="course">
+                        <p>计算机科学基础练习10(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="12">
-                      <p>计算机科学基础练习12(实训场1栋102室)</p>
+                    <div class="course-container" courseId="12">
+                      <div class="course">
+                        <p>计算机科学基础练习12(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
-                    <div class="course" courseId="12">
-                      <p>计算机科学基础练习12(实训场1栋102室)</p>
+                    <div class="course-container" courseId="12">
+                      <div class="course">
+                        <p>计算机科学基础练习12(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td>
-                    <div class="course" courseId="13">
-                      <p>计算机科学基础练习13(实训场1栋102室)</p>
+                    <div class="course-container" courseId="13">
+                      <div class="course">
+                        <p>计算机科学基础练习13(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
-                  <td></td>
+                  <td>
+                    <div class="course-container" courseId="13">
+                      <div class="course">
+                        <p>计算机科学基础练习13(实训场1栋102室)</p>
+                      </div>
+                    </div>
+                  </td>
                   <td></td>
                   <td rowspan="2">
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    <div class="course-container" courseId="16">
+                      <div class="course">
+                        <p>计算机科学基础练习16(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    <div class="course-container" courseId="18">
+                      <div class="course">
+                        <p>计算机科学基础练习18(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                    <div class="course" courseId="15">
-                      <p>计算机科学基础练习15(实训场1栋102室)</p>
+                    <div class="course-container" courseId="15">
+                      <div class="course">
+                        <p>计算机科学基础练习15(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td>
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    <div class="course-container" courseId="16">
+                      <div class="course">
+                        <p>计算机科学基础练习16(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="20">
-                      <p>计算机科学基础练习20(实训场1栋102室)</p>
+                    <div class="course-container" courseId="20">
+                      <div class="course">
+                        <p>计算机科学基础练习20(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td>
-                    <div class="course" courseId="20">
-                      <p>计算机科学基础练习20(实训场1栋102室)</p>
+                    <div class="course-container" courseId="20">
+                      <div class="course">
+                        <p>计算机科学基础练习20(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
 
@@ -260,18 +307,24 @@
                 <tr>
                   <td>5</td>
                   <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    <div class="course-container" courseId="18">
+                      <div class="course">
+                        <p>计算机科学基础练习18(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td>
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    <div class="course-container" courseId="16">
+                      <div class="course">
+                        <p>计算机科学基础练习16(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td>
-                    <div class="course" courseId="6">
-                      <p>计算机科学基础练习6(实训场1栋102室)</p>
+                    <div class="course-container" courseId="6">
+                      <div class="course">
+                        <p>计算机科学基础练习6(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
@@ -282,14 +335,18 @@
                 <tr>
                   <td>6</td>
                   <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    <div class="course-container" courseId="18">
+                      <div class="course">
+                        <p>计算机科学基础练习18(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    <div class="course-container" courseId="18">
+                      <div class="course">
+                        <p>计算机科学基础练习18(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
@@ -300,8 +357,10 @@
                 <tr>
                   <td>7</td>
                   <td>
-                    <div class="course" courseId="4">
-                      <p>实训</p>
+                    <div class="course-container" courseId="4">
+                      <div class="course">
+                        <p>实训</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
@@ -315,16 +374,20 @@
                   <td>8</td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    <div class="course-container" courseId="18">
+                      <div class="course">
+                        <p>计算机科学基础练习18(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
                   <td></td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="6">
-                      <p>计算机科学基础练习6(实训场1栋102室)</p>
+                    <div class="course-container" courseId="6">
+                      <div class="course">
+                        <p>计算机科学基础练习6(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
@@ -335,8 +398,10 @@
                   <td></td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="8">
-                      <p>计算机科学基础练习8(实训场1栋102室)</p>
+                    <div class="course-container" courseId="8">
+                      <div class="course">
+                        <p>计算机科学基础练习8(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
@@ -347,8 +412,10 @@
                   <td>10</td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    <div class="course-container" courseId="16">
+                      <div class="course">
+                        <p>计算机科学基础练习16(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                   <td></td>
@@ -356,8 +423,10 @@
                   <td></td>
                   <td></td>
                   <td>
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    <div class="course-container" courseId="16">
+                      <div class="course">
+                        <p>计算机科学基础练习16(实训场1栋102室)</p>
+                      </div>
                     </div>
                   </td>
                 </tr>
@@ -375,7 +444,7 @@
 （4） 可以查询合作过的单位、参与过校企合作的班级
 （5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
 （6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
-      </pre>
+              </pre>
       </div>
       <div class="tab-pane" id="courseApply">
         <pre>
@@ -386,39 +455,48 @@
 （4） 可以查询合作过的单位、参与过校企合作的班级
 （5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
 （6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
-      </pre>
+              </pre>
       </div>
     </div>
   </div>
 
   <!-- /container -->
 </body>
-  <script type="text/javascript">
-function shuffle(o){ //v1.0
-    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-    return o;
+<script type="text/javascript">
+function shuffle(o) { //v1.0
+  for (var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+  return o;
 };
 var courseStyles = [];
-for(var i=1;i<=20;i++){
-  courseStyles.push("course-"+i);
+for (var i = 1; i <= 20; i++) {
+  courseStyles.push("course-" + i);
 }
 //courseStyles = shuffle(courseStyles);
-$(function(){
+$(function() {
   var index = 0;
   var courses = [];
-  $(".course:first-child").each(function(i,e){
+  $(".course-container:first-child").each(function(i, e) {
     var courseId = $(e).attr("courseId");
     var index = $.inArray(courseId, courses);
-    if(index <= -1){
+    if (index <= -1) {
       courses.push(courseId);
       index = courses.length - 1;
     }
-    $(e).parent().addClass(courseStyles[(index % courseStyles.length)]);
+    $(e).addClass(courseStyles[(index % courseStyles.length)]);
   });
 
   //更多课程
   $(".more-course").click(function() {
     $(this).closest(".course").siblings().fadeToggle();
   });
+
+  //mouse
+  $(".course-container").hover(function() {
+    //$(this).find(".course:hidden").fadeIn().parent().css({"overflow":"visiable","height":"initial"});
+  }, function() {
+    //$(this).find(".course:not(:first-child)").fadeOut().parent().css({"overflow":"hidden","height":"100%"});
+  });
 });
-</script></html>
+</script>
+
+</html>
