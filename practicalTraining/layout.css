@@ -1,0 +1,100 @@
+#courseTable td{
+	height: 15px;
+	/*padding: 0;*/
+}
+#courseTable th:not(:first-child){
+	width: 13.5%;
+}
+#courseT {
+	width: 100%;
+	height: 100%;
+	min-height: 20px;
+	padding: 5px;
+	/*margin-bottom: 20px;*/
+	/*background-color: #f5f5f5;*/
+	/*border: 1px solid #e3e3e3;*/
+	/*border-radius: 4px;*/
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+	text-overflow:ellipsis;
+}
+.course-1{
+	background-color: #fffddd;
+	/*color: #fff;*/
+}
+.course-2{
+	background-color: #ffc4c4;
+	/*color: #fff;*/
+}
+.course-3{
+	background-color: #ffa8a8;
+	/*color: #fff;*/
+}
+.course-4{
+	background-color: #ec8080;
+	/*color: #fff;*/
+}
+.course-5{
+	background-color: #cf5656;
+	/*color: #fff;*/
+}
+.course-6{
+	background-color: #ecb180;
+	/*color: #fff;*/
+}
+.course-7{
+	background-color: #cf8d56;
+	/*color: #fff;*/
+}
+.course-8{
+	background-color: #ffcfa8;
+	/*color: #fff;*/
+}
+.course-9{
+	background-color: #ffecdd;
+	/*color: #fff;*/
+}
+.course-10{
+	background-color: #ffdfc4;
+	/*color: #fff;*/
+}
+.course-11{
+	background-color: #4d8e8e;
+	/*color: #fff;*/
+}
+.course-12{
+	background-color: #347c7c;
+	/*color: #fff;*/
+}
+.course-13{
+	background-color: #6ba3a3;
+	/*color: #fff;*/
+}
+.course-14{
+	background-color: #bcd9d9;
+	/*color: #fff;*/
+}
+.course-15{
+	background-color: #93c0c0;
+	/*color: #fff;*/
+}
+.course-16{
+	background-color: #66bd66;
+	/*color: #fff;*/
+}
+.course-17{
+	background-color: #45a545;
+	/*color: #fff;*/
+}
+.course-18{
+	background-color: #8ad18a;
+	/*color: #fff;*/
+}
+.course-19{
+	background-color: #cceccc;
+	/*color: #fff;*/
+}
+.course-20{
+	background-color: #acdfac;
+	/*color: #fff;*/
+}

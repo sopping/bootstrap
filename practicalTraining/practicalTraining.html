@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>实训管理</title>
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">实训管理</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#institution">制度说明</a>
+          </li>
+          <li>
+            <a href="#course">实训课程</a>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              实训设备
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#">设备入库</a>
+              </li>
+              <li>
+                <a href="#">检修保养</a>
+              </li>
+              <li>
+                <a href="#">申请领用</a>
+              </li>
+              <li>
+                <a href="#">记录查询</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse --> </div>
+  </nav>
+
+  <div class="container theme-showcase" role="main">
+    <div class="jumbotron">
+      <h1>实训管理</h1>
+      <p>让实习生、管理教室和企业明确自身的权利义务，规范实习阶段的各类事项，使实习管理有据可依，引导学生有效完成实习实训环节。</p>
+    </div>
+  </div>
+
+  <div class="container" id="institution">
+    <div class="page-header">
+      <h2>学生制度</h2>
+    </div>
+    <p>招生就业处老师进行信息维护，学生、教师、注册的企业用户可以查看。信息更新频率比较低，一般不会变动。</p>
+    <pre>
+（1） 新生入学的时候，登记班级对应的合作单位（会有班级没有对接的单位），合作是三年，班级毕业之后，合作就结束，记录到目前为止，跟学校合作单位的信息
+（2） 有些单位在班级毕业之后会取消，有些会一直合作下去
+（3） 根据时间查询目前为止的合作单位信息（总数量、单位名称、联系人、联系电话、单位简介）
+（4） 可以查询合作过的单位、参与过校企合作的班级
+（5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
+（6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
+      </pre>
+
+    <div class="page-header">
+      <h2>教师制度</h2>
+    </div>
+    <p>招生就业处老师进行信息维护，学生、教师、注册的企业用户可以查看。信息更新频率比较低，一般不会变动。</p>
+    <pre>
+（1） 新生入学的时候，登记班级对应的合作单位（会有班级没有对接的单位），合作是三年，班级毕业之后，合作就结束，记录到目前为止，跟学校合作单位的信息
+（2） 有些单位在班级毕业之后会取消，有些会一直合作下去
+（3） 根据时间查询目前为止的合作单位信息（总数量、单位名称、联系人、联系电话、单位简介）
+（4） 可以查询合作过的单位、参与过校企合作的班级
+（5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
+（6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
+      </pre>
+
+    <div class="page-header">
+      <h2>兴趣小组制度</h2>
+    </div>
+    <p>招生就业处老师进行信息维护，学生、教师、注册的企业用户可以查看。信息更新频率比较低，一般不会变动。</p>
+    <pre>
+（1） 新生入学的时候，登记班级对应的合作单位（会有班级没有对接的单位），合作是三年，班级毕业之后，合作就结束，记录到目前为止，跟学校合作单位的信息
+（2） 有些单位在班级毕业之后会取消，有些会一直合作下去
+（3） 根据时间查询目前为止的合作单位信息（总数量、单位名称、联系人、联系电话、单位简介）
+（4） 可以查询合作过的单位、参与过校企合作的班级
+（5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
+（6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
+      </pre>
+  </div>
+
+  <div class="container" id="course">
+    <div class="page-header">
+      <h1>实训课程</h1>
+    </div>
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation">
+        <a href="#courseApply" data-toggle="tab">课程申请</a>
+      </li>
+      <li role="presentation">
+        <a href="#courseAudit" data-toggle="tab">课程审核</a>
+      </li>
+      <li role="presentation"  class="active">
+        <a href="#courseArrange" data-toggle="tab">课程排课</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane row active" id="courseArrange">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- table-condensed  -->
+            <table class="table table-bordered" id="courseTable">
+              <thead>
+                <tr>
+                  <th>节次</th>
+                  <th>星期一</th>
+                  <th>星期二</th>
+                  <th>星期三</th>
+                  <th>星期四</th>
+                  <th>星期五</th>
+                  <th>星期六</th>
+                  <th>星期日</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td rowspan="2">
+                    <div class="course" courseId="1">
+                      <p>
+                        计算机科学基础练习1(实训场1栋102室)
+                        <span class="glyphicon glyphicon-plus more-course"></span>
+                      </p>
+                    </div>
+                    <div class="course" courseId="2" style="display:none">
+                      <p>计算机科学基础练习1(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="3">
+                      <p>
+                        计算机科学基础练习3(实训场1栋102室)
+                        <span class="glyphicon glyphicon-plus more-course"></span>
+                      </p>
+                    </div>
+                    <div class="course" courseId="2" style="display:none">
+                      <p>计算机科学基础练习1(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="5">
+                      <p>计算机科学基础练习5(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="9">
+                      <p>计算机科学基础练习9(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="course" courseId="10">
+                      <p>计算机科学基础练习10(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="12">
+                      <p>计算机科学基础练习12(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>
+                    <div class="course" courseId="12">
+                      <p>计算机科学基础练习12(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="course" courseId="13">
+                      <p>计算机科学基础练习13(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td rowspan="2">
+                    <div class="course" courseId="16">
+                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="18">
+                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>
+                    <div class="course" courseId="15">
+                      <p>计算机科学基础练习15(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="course" courseId="16">
+                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="20">
+                      <p>计算机科学基础练习20(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="course" courseId="20">
+                      <p>计算机科学基础练习20(实训场1栋102室)</p>
+                    </div>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>
+                    <div class="course" courseId="18">
+                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="course" courseId="16">
+                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="course" courseId="6">
+                      <p>计算机科学基础练习6(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>
+                    <div class="course" courseId="18">
+                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="18">
+                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>
+                    <div class="course" courseId="4">
+                      <p>实训</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="18">
+                      <p>计算机科学基础练习18(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="6">
+                      <p>计算机科学基础练习6(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="8">
+                      <p>计算机科学基础练习8(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="16">
+                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>
+                    <div class="course" courseId="16">
+                      <p>计算机科学基础练习16(实训场1栋102室)</p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="courseAudit">
+        <pre>
+         courseAudit
+（1） 新生入学的时候，登记班级对应的合作单位（会有班级没有对接的单位），合作是三年，班级毕业之后，合作就结束，记录到目前为止，跟学校合作单位的信息
+（2） 有些单位在班级毕业之后会取消，有些会一直合作下去
+（3） 根据时间查询目前为止的合作单位信息（总数量、单位名称、联系人、联系电话、单位简介）
+（4） 可以查询合作过的单位、参与过校企合作的班级
+（5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
+（6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
+      </pre>
+      </div>
+      <div class="tab-pane" id="courseApply">
+        <pre>
+         courseArrange
+（1） 新生入学的时候，登记班级对应的合作单位（会有班级没有对接的单位），合作是三年，班级毕业之后，合作就结束，记录到目前为止，跟学校合作单位的信息
+（2） 有些单位在班级毕业之后会取消，有些会一直合作下去
+（3） 根据时间查询目前为止的合作单位信息（总数量、单位名称、联系人、联系电话、单位简介）
+（4） 可以查询合作过的单位、参与过校企合作的班级
+（5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
+（6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
+      </pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- /container -->
+</body>
+  <script type="text/javascript">
+function shuffle(o){ //v1.0
+    for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+};
+var courseStyles = [];
+for(var i=1;i<=20;i++){
+  courseStyles.push("course-"+i);
+}
+//courseStyles = shuffle(courseStyles);
+$(function(){
+  var index = 0;
+  var courses = [];
+  $(".course:first-child").each(function(i,e){
+    var courseId = $(e).attr("courseId");
+    var index = $.inArray(courseId, courses);
+    if(index <= -1){
+      courses.push(courseId);
+      index = courses.length - 1;
+    }
+    $(e).parent().addClass(courseStyles[(index % courseStyles.length)]);
+  });
+
+  //更多课程
+  $(".more-course").click(function() {
+    $(this).closest(".course").siblings().fadeToggle();
+  });
+});
+</script></html>
