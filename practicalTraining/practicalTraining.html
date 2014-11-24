@@ -121,274 +121,311 @@
       <h1>实训课程</h1>
     </div>
     <ul class="nav nav-tabs" role="tablist">
-      <li role="presentation">
+      <li role="presentation" class="active">
         <a href="#courseApply" data-toggle="tab">课程申请</a>
       </li>
       <li role="presentation">
         <a href="#courseAudit" data-toggle="tab">课程审核</a>
       </li>
-      <li role="presentation"  class="active">
+      <li role="presentation">
         <a href="#courseArrange" data-toggle="tab">课程排课</a>
       </li>
     </ul>
     <div class="tab-content">
-      <div class="tab-pane row active" id="courseArrange">
-        <div class="row">
-          <div class="col-md-12">
-            <!-- table-condensed  -->
-            <table class="table table-bordered" id="courseTable">
-              <thead>
-                <tr>
-                  <th>节次</th>
-                  <th>星期一</th>
-                  <th>星期二</th>
-                  <th>星期三</th>
-                  <th>星期四</th>
-                  <th>星期五</th>
-                  <th>星期六</th>
-                  <th>星期日</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td rowspan="2">
-                    <div class="course" courseId="1">
-                      <p>
-                        计算机科学基础练习1(实训场1栋102室)
-                        <span class="glyphicon glyphicon-plus more-course"></span>
-                      </p>
-                    </div>
-                    <div class="course" courseId="2" style="display:none">
-                      <p>计算机科学基础练习1(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="3">
-                      <p>
-                        计算机科学基础练习3(实训场1栋102室)
-                        <span class="glyphicon glyphicon-plus more-course"></span>
-                      </p>
-                    </div>
-                    <div class="course" courseId="2" style="display:none">
-                      <p>计算机科学基础练习1(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="5">
-                      <p>计算机科学基础练习5(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td></td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="9">
-                      <p>计算机科学基础练习9(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="course" courseId="10">
-                      <p>计算机科学基础练习10(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="12">
-                      <p>计算机科学基础练习12(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>
-                    <div class="course" courseId="12">
-                      <p>计算机科学基础练习12(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="course" courseId="13">
-                      <p>计算机科学基础练习13(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td rowspan="2">
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>
-                    <div class="course" courseId="15">
-                      <p>计算机科学基础练习15(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="20">
-                      <p>计算机科学基础练习20(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="course" courseId="20">
-                      <p>计算机科学基础练习20(实训场1栋102室)</p>
-                    </div>
-                  </td>
+      <div class="tab-pane row" id="courseArrange">
+        <div class="col-md-12">
+          <!-- table-condensed  -->
+          <table class="table table-bordered" id="courseTable">
+            <thead>
+              <tr>
+                <th>节次</th>
+                <th>星期一</th>
+                <th>星期二</th>
+                <th>星期三</th>
+                <th>星期四</th>
+                <th>星期五</th>
+                <th>星期六</th>
+                <th>星期日</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td rowspan="2">
+                  <div class="course" courseId="1">
+                    <p>
+                      计算机科学基础练习1(实训场1栋102室)
+                      <span class="glyphicon glyphicon-plus more-course"></span>
+                    </p>
+                  </div>
+                  <div class="course" courseId="2" style="display:none">
+                    <p>计算机科学基础练习1(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="3">
+                    <p>
+                      计算机科学基础练习3(实训场1栋102室)
+                      <span class="glyphicon glyphicon-plus more-course"></span>
+                    </p>
+                  </div>
+                  <div class="course" courseId="2" style="display:none">
+                    <p>计算机科学基础练习1(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="5">
+                    <p>计算机科学基础练习5(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="9">
+                    <p>计算机科学基础练习9(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="course" courseId="10">
+                    <p>计算机科学基础练习10(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="12">
+                    <p>计算机科学基础练习12(实训场1栋102室)</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>
+                  <div class="course" courseId="12">
+                    <p>计算机科学基础练习12(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="course" courseId="13">
+                    <p>计算机科学基础练习13(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td rowspan="2">
+                  <div class="course" courseId="16">
+                    <p>计算机科学基础练习16(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="18">
+                    <p>计算机科学基础练习18(实训场1栋102室)</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>
+                  <div class="course" courseId="15">
+                    <p>计算机科学基础练习15(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="course" courseId="16">
+                    <p>计算机科学基础练习16(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="20">
+                    <p>计算机科学基础练习20(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="course" courseId="20">
+                    <p>计算机科学基础练习20(实训场1栋102室)</p>
+                  </div>
+                </td>
 
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="course" courseId="6">
-                      <p>计算机科学基础练习6(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>6</td>
-                  <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>7</td>
-                  <td>
-                    <div class="course" courseId="4">
-                      <p>实训</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>8</td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="18">
-                      <p>计算机科学基础练习18(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="6">
-                      <p>计算机科学基础练习6(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>9</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="8">
-                      <p>计算机科学基础练习8(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>10</td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td>
-                    <div class="course" courseId="16">
-                      <p>计算机科学基础练习16(实训场1栋102室)</p>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>
+                  <div class="course" courseId="18">
+                    <p>计算机科学基础练习18(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="course" courseId="16">
+                    <p>计算机科学基础练习16(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="course" courseId="6">
+                    <p>计算机科学基础练习6(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>
+                  <div class="course" courseId="18">
+                    <p>计算机科学基础练习18(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="18">
+                    <p>计算机科学基础练习18(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>
+                  <div class="course" courseId="4">
+                    <p>实训</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="18">
+                    <p>计算机科学基础练习18(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="6">
+                    <p>计算机科学基础练习6(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="8">
+                    <p>计算机科学基础练习8(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="16">
+                    <p>计算机科学基础练习16(实训场1栋102室)</p>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="course" courseId="16">
+                    <p>计算机科学基础练习16(实训场1栋102室)</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
       <div class="tab-pane" id="courseAudit">
-        <pre>
-         courseAudit
-（1） 新生入学的时候，登记班级对应的合作单位（会有班级没有对接的单位），合作是三年，班级毕业之后，合作就结束，记录到目前为止，跟学校合作单位的信息
-（2） 有些单位在班级毕业之后会取消，有些会一直合作下去
-（3） 根据时间查询目前为止的合作单位信息（总数量、单位名称、联系人、联系电话、单位简介）
-（4） 可以查询合作过的单位、参与过校企合作的班级
-（5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
-（6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
-      </pre>
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-addon">教师名称</div>
+              <input class="form-control" type="text" placeholder="输入教师名称"></div>
+            <div class="input-group">
+              <div class="input-group-addon">实训课程</div>
+              <input type="text" class="form-control" id="exampleInputPassword2" placeholder="输入实训课程"></div>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-default">查询</button>
+        </form>
+
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            金工实习(金工场203室)申请
+            <span class="label label-info">吴金贵</span>
+          </a>
+          <a href="#" class="list-group-item">物料检测实习(金工场303室)申请</a>
+          <a href="#" class="list-group-item">水泥工艺(金工场503室)申请</a>
+          <a href="#" class="list-group-item">玻璃工艺实训(金工场101室)申请</a>
+          <a href="#" class="list-group-item">陶艺(金工场403室)申请</a>
+        </div>
       </div>
-      <div class="tab-pane" id="courseApply">
-        <pre>
-         courseArrange
-（1） 新生入学的时候，登记班级对应的合作单位（会有班级没有对接的单位），合作是三年，班级毕业之后，合作就结束，记录到目前为止，跟学校合作单位的信息
-（2） 有些单位在班级毕业之后会取消，有些会一直合作下去
-（3） 根据时间查询目前为止的合作单位信息（总数量、单位名称、联系人、联系电话、单位简介）
-（4） 可以查询合作过的单位、参与过校企合作的班级
-（5） 目前学校的校企合作是两大模式，一个是跟班级合作，第二种是实习合作 （包括就业合作）的单位
-（6） 最后要统计学生实习就业率、对口率，（学生输入自己的就业单位、岗位、薪资等信息，班主任汇总，审核就业是否对口）（老师再提供纸质表格）
-      </pre>
+      <div class="tab-pane active" id="courseApply">
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-addon">教师名称</div>
+              <input class="form-control" type="text" placeholder="输入教师名称"></div>
+            <div class="input-group">
+              <div class="input-group-addon">实训课程</div>
+              <input type="text" class="form-control" id="exampleInputPassword2" placeholder="输入实训课程"></div>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-default">查询</button>
+        </form>
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            金工实习(金工场203室)申请
+            <span class="label label-info">吴金贵</span>
+          </a>
+          <a href="#" class="list-group-item">物料检测实习(金工场303室)申请</a>
+          <a href="#" class="list-group-item">水泥工艺(金工场503室)申请</a>
+          <a href="#" class="list-group-item">玻璃工艺实训(金工场101室)申请</a>
+          <a href="#" class="list-group-item">陶艺(金工场403室)申请</a>
+        </div>
       </div>
     </div>
+
+    <div class="page-header">
+      <h1>资产管理</h1>
+    </div>
+
+
   </div>
 
   <!-- /container -->
