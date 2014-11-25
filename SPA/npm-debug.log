@@ -1,6 +1,6 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'd:\\Program Files\\node.js\\node.exe',
-1 verbose cli   'd:\\Program Files\\node.js\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli [ 'd:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'run',
 1 verbose cli   'protractor' ]
 2 info using npm@1.4.28
@@ -21,9 +21,9 @@
 11 error You can get their info via:
 11 error     npm owner ls SPA
 11 error There is likely additional logging output above.
-12 error System Windows_NT 6.1.7601
-13 error command "d:\\Program Files\\node.js\\node.exe" "d:\\Program Files\\node.js\\node_modules\\npm\\bin\\npm-cli.js" "run" "protractor"
-14 error cwd e:\node\bootstrap_train\SPA
+12 error System Windows_NT 6.2.9200
+13 error command "d:\\Program Files\\nodejs\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "protractor"
+14 error cwd f:\git\bootstrap\SPA
 15 error node -v v0.10.33
 16 error npm -v 1.4.28
 17 error code ELIFECYCLE

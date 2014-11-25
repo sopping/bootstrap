@@ -25,10 +25,6 @@ describe('Main controllers', function() {
       ctrl = $controller('mainController', {$scope:scope});
     }));
 
-    it('should return "entry the query"', function() {
-       expect(scope.query).toBe("entry the query");
-    });
-
     it('should create "appList" model with 2 apps', function() {
       expect(scope.apps).toBeUndefined();
       $httpBackend.flush();
@@ -36,6 +32,11 @@ describe('Main controllers', function() {
       expect(scope.apps.brandName).toEqual('name');
       expect(scope.apps.appList).toEqual([{name: 'app1'}, {name: 'app2'}]);
     });
+  });
+
+  describe('appController', function(){
+
+
 
 
   });
