@@ -1,0 +1,40 @@
+{
+	"brandName" : "实训管理",
+	"brandImg" : "img/brand.jpg",
+	"appList" : [
+		{
+			"id" : "institution",
+			"name" : "制度说明",
+			"multiple" : false
+		},
+		{
+			"id" : "course",
+			"name" : "实训课程",
+			"multiple" : false
+		},
+		{
+			"id" : "asset",
+			"name" : "实训设备",
+			"multiple" : true,
+			"appList" : [
+				{
+					"id" : "putIn",
+					"name" : "设备入库"
+				},
+				{
+					"id" : "keepFit",
+					"name" : "检修保养"
+				},
+				{
+					"id" : "requisition",
+					"name" : "申请领用"
+				},
+				{
+					"id" : "record",
+					"name" : "记录查询"
+				}
+			]
+		}
+
+	]
+}
