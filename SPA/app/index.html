@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" ng-app="mainApp">
+<head>
+  <meta charset="utf-8">
+  <title>Single Page Application</title>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+  <!-- <link rel="stylesheet" href="main/css/app.css">
+  <link rel="stylesheet" href="main/css/animations.css"> -->
+
+  <script src="/bower_components/jquery/jquery.js"></script>
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="/bower_components/angular-animate/angular-animate.js"></script>
+  <script src="/bower_components/angular-route/angular-route.js"></script>
+  <script src="/bower_components/angular-resource/angular-resource.js"></script>
+  <script src="main/js/mainApp.js"></script>
+  <script src="main/js/mainAnimations.js"></script>
+  <script src="main/js/mainDirectives.js"></script>
+  <script src="main/js/mainControllers.js"></script>
+  <script src="main/js/mainFilters.js"></script>
+  <script src="main/js/mainServices.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-static-top" ng-controller="mainController">
+    <main-header apps="apps"/>
+  </nav>
+
+  <div class="view-container">
+    <div ng-view class="view-frame"></div>
+  </div>
+
+</body>
+</html>
